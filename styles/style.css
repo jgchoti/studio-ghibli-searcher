@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Reddit+Mono:wght@200..900&display=swap");
+@import url("./index.css");
+@import url("./error.css");
+@import url("./item-card.css");
+@import url("./pagination.css");
+@import url("./sort-selector.css");
+@import url("./filter.css");
+@import url("./footer.css");
+:root {
+  --font-color: #267b51;
+  --font-color-detail: #a48c72;
+  --font-color-title: #6e91c8;
+  --bg-color: #d3ddcf;
+  --btn-bg-color: #dde7ec;
+  --card-bg-color: #e4ddd5;
+  --card-shadow: #6e91c8;
+  --border-color: #267b51;
+  --font-family-title: "Amaranth", sans-serif;
+  --font-family: "Reddit Mono", monospace;
+}
+
+body {
+  background-color: var(--bg-color);
+}
