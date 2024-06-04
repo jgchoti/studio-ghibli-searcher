@@ -1,0 +1,8 @@
+#sort-container {
+  text-align: right;
+  margin-top: 40px;
+  margin-right: 60px;
+}
+#sort {
+  font-family: var(--font-family);
+}
