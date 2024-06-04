@@ -1,0 +1,37 @@
+#top-pagination,
+#bottom-pagination {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
+  font-family: var(--font-family);
+}
+
+#top-pagination > :first-child,
+#bottom-pagination > :first-child {
+  text-align: right;
+}
+
+#top-pagination > :nth-child(2),
+#bottom-pagination > :nth-child(2) {
+  text-align: center;
+}
+
+#top-pagination > :last-child,
+#bottom-pagination > :last-child {
+  text-align: left;
+}
+
+#top-pagination label,
+#bottom-pagination label {
+  margin-right: 10px;
+}
+
+.page-number {
+  color: var(--blue);
+}
+
+#top-pagination button,
+#bottom-pagination button {
+  margin-right: 4px;
+}
