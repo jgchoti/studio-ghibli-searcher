@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/da68399f87.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Studio Ghibli Searcher</title>
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="header">
+        <!-- <img src="./assets/disney_logo.png" /> -->
+      </div>
+      <div id="user-input">
+        <section id="search-box">
+          <label for="types"></label>
+          <select name="types" id="types">
+            <option value="all">All</option>
+            <option value="films">Films</option>
+            <option value="people">People</option>
+            <option value="locations">Locations</option>
+            <option value="species">Species</option>
+            <option value="vehicles">Vehicles</option>
+          </select>
+          <input type="text" class="input-field" />
+          <button class="btn" id="submit-btn" type="submit">Search</button>
+        </section>
+      </div>
+      <div id="output"></div>
+      <div id="footer">
+        <p>Studio Ghibli© Searcher</p>
+        <img src="../../assets/kiki.png" />
+      </div>
+    </div>
+    <script type="module" src="./src/init.js"></script>
+  </body>
+</html>
