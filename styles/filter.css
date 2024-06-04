@@ -1,0 +1,13 @@
+#filter-container {
+  text-align: right;
+  margin-top: 16px;
+  margin-right: 60px;
+  font-family: var(--font-family);
+  font-size: 14px;
+}
+#filter-container label {
+  margin-right: 8px;
+}
+#filter-container input {
+  vertical-align: top;
+}
