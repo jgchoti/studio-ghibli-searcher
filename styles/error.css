@@ -1,0 +1,24 @@
+#error-container {
+  margin: 0 auto 40px;
+}
+
+#error-container img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 4px;
+}
+
+#error-container p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 18px;
+}
+
+#error-container .btn-reset-filter {
+  display: block;
+  margin: 10px auto 0;
+}
