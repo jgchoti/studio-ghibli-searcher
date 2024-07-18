@@ -5,6 +5,8 @@ body {
 .header {
   height: 300px;
   background: no-repeat center/100% url("../assets/ghibli.jpg");
+  overflow: hidden;
+  position: relative;
 }
 
 #user-input {
@@ -13,6 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 #user-input select {
@@ -63,6 +66,20 @@ button:focus-visible {
 }
 
 @media only screen and (max-width: 600px) {
+  #user-input {
+    display: block;
+    text-align: center;
+  }
+  #user-input input {
+    width: 60%;
+  }
+  #user-input select {
+    width: 30%;
+  }
+  button {
+    margin: 8px auto;
+    text-align: center;
+  }
   .header {
     height: 200px;
   }

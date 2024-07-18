@@ -11,3 +11,13 @@
 #filter-container input {
   vertical-align: top;
 }
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  #filter-container {
+    text-align: center;
+    margin: 0 20px;
+    font-family: var(--font-family);
+    font-size: 14px;
+  }
+}

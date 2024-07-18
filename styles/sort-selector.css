@@ -3,6 +3,28 @@
   margin-top: 40px;
   margin-right: 60px;
 }
+
+#sort-container select {
+  position: relative;
+  text-align: center;
+  padding-right: 30px;
+}
+
 #sort {
   font-family: var(--font-family);
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  @media (max-width: 768px) {
+    #sort-container {
+      display: flex;
+      justify-content: center;
+      margin: 14px auto;
+    }
+    #sort-container select {
+      width: 40%;
+      margin: 0;
+    }
+  }
 }

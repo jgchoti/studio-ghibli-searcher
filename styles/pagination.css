@@ -35,3 +35,32 @@
 #bottom-pagination button {
   margin-right: 4px;
 }
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  #top-pagination,
+  #bottom-pagination {
+    grid-template-columns: 1fr;
+    grid-template-areas: "first" "center" "last";
+    text-align: center;
+    grid-gap: 0;
+  }
+
+  #top-pagination > :first-child,
+  #bottom-pagination > :first-child {
+    grid-area: first; /* Place first element at the top */
+    text-align: center; /* Align text to the left */
+  }
+
+  #top-pagination > :nth-child(2),
+  #bottom-pagination > :nth-child(2) {
+    grid-area: center; /* Place second element in the middle */
+    text-align: center; /* Align text to the right */
+  }
+
+  #top-pagination > :last-child,
+  #bottom-pagination > :last-child {
+    grid-area: last; /* Place last element at the bottom */
+    text-align: center; /* Center the text */
+  }
+}
