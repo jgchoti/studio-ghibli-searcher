@@ -101,4 +101,7 @@
   .preview-films-img {
     max-width: 100%;
   }
+  .item-info h3 {
+    margin: 0;
+  }
 }
